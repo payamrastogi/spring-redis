@@ -1,0 +1,14 @@
+GET http://localhost:8080/users
+
+###
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "nanna",
+    "age": 55,
+    "id":2
+}
+
+###
+GET  http://localhost:8080/users/2
